@@ -36,14 +36,14 @@
   .container div:nth-child(1){
     height: 80%;
     width: 85%;
-    background: rgb(172, 248, 86);
+    background: rgb(201, 248, 147);
     left: -23%;
     top: -20%;
   }
   .container div:nth-child(2){
     height: 90%;
     width: 90%;
-    background: rgb(255, 129, 129);
+    background: rgb(252, 164, 164);
     right: -25%;
     top: -20%;
     /* animation-delay: 2s; */
@@ -52,7 +52,7 @@
   .container div:nth-child(3){
     height: 70%;
     width: 80%;
-    background: rgb(229, 169, 253);
+    background: rgb(227, 175, 248);
     left: -20%;
     bottom: -10%;
     /* animation-delay: 0.3s; */
@@ -61,7 +61,7 @@
   .container div:nth-child(4){
     height: 70%;
     width: 80%;
-    background: rgb(3, 178, 247);
+    background: rgb(140, 216, 247);
     right: -25%;
     bottom: -10%;
     /* animation-delay: 1.2s; */
