@@ -18,14 +18,14 @@
     background:#ffffff;
     position: absolute;
     z-index: -1;
-    /* animation: gradient 7s infinite ease-out; */
+    animation: gradient 7s infinite ease-out;
   }
 
-  /* @keyframes gradient {
+  @keyframes gradient {
     70%{
       transform: scale(1.5) translate(50px);
     }
-  } */
+  }
 
   .container div{
     position: absolute;
@@ -46,7 +46,7 @@
     background: rgb(252, 164, 164);
     right: -25%;
     top: -20%;
-    /* animation-delay: 2s; */
+    animation-delay: 2s;
   }
 
   .container div:nth-child(3){
@@ -55,7 +55,7 @@
     background: rgb(227, 175, 248);
     left: -20%;
     bottom: -10%;
-    /* animation-delay: 0.3s; */
+    animation-delay: 0.3s;
   }
 
   .container div:nth-child(4){
