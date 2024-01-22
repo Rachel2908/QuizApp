@@ -1395,8 +1395,8 @@ function renderQuestion() {
                       </label><br>`;
     });
 
-    quizContainer.innerHTML = `<h3 style="color: black;  margin-top: 4rem; font-size:1.2rem">${currentQuestionData.question}</h3>${optionsHtml}
-                               <button style="padding:10px 15px; border-radius:10px; font-size:1rem; margin-top:20px" onclick="submitAnswer()" >Submit</button>`;
+    quizContainer.innerHTML = `<h3 style="color: black;  margin-top: 3rem; font-size:0.85rem">${currentQuestionData.question}</h3>${optionsHtml}
+                               <button style="padding:10px 15px; border-radius:10px; font-size:1rem; margin-top:15px" onclick="submitAnswer()" >Submit</button>`;
   } else {
     // Quiz completed, show score
     showScore();
@@ -1427,10 +1427,10 @@ function showScore() {
   scoreContainer.classList.remove('hidden');
 
   const totalQuestions = questions.length;
-  scoreContainer.innerHTML = `<h2 style="text-align:center; margin-bottom:1rem; margin-top:4rem">Quiz Completed</h2>
-                              <p style="text-align:center; font-size:1.2rem;
+  scoreContainer.innerHTML = `<h2 style="text-align:center; margin-bottom:1rem; margin-top:2rem">Quiz Completed</h2>
+                              <p style="text-align:center; font-size:0.8rem;
                               font-weight:500; margin-bottom:1rem">Your score: ${score}/${totalQuestions}</p>
-                              <button style="margin-left:10px; padding:10px 15px; border-radius:10px; font-size:1rem; margin-top:20px" onclick="showIncorrectAnswers()">View Incorrect Answers</button>
+                              <button style="margin-left:10px; padding:10px 15px; border-radius:10px; font-size:1rem; margin-top:10px" onclick="showIncorrectAnswers()">View Incorrect Answers</button>
                               <a href="#" onclick="restartQuiz()" style="text-decoration:none; color:rgb(85, 1, 153); font-weight:500" >Restart Quiz</a>`;
 }
 
