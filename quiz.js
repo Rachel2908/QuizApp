@@ -1395,7 +1395,7 @@ function renderQuestion() {
                       </label><br>`;
     });
 
-    quizContainer.innerHTML = `<h3 style="color: black;  margin-top: 1rem; font-size:1.2rem">${currentQuestionData.question}</h3>${optionsHtml}
+    quizContainer.innerHTML = `<h3 style="color: black;  margin-top: 4rem; font-size:1.2rem">${currentQuestionData.question}</h3>${optionsHtml}
                                <button style="padding:10px 15px; border-radius:10px; font-size:1rem; margin-top:20px" onclick="submitAnswer()" >Submit</button>`;
   } else {
     // Quiz completed, show score
